@@ -33,7 +33,7 @@ html, body{
 }
 
 #search-box{
-    bottom: 38%;
+    bottom: 20%;
     -webkit-animation-delay: 0.7s;
     -webkit-animation-duration: 2s;
 }
