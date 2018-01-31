@@ -3,7 +3,7 @@ html{
 }
 
 #navbar-main{
-    z-index: 101;
+    z-index: 1000;
 }
 
 .main-section{
