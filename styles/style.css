@@ -1,0 +1,31 @@
+html{
+    margin: 0px;
+}
+
+.main-section{
+    height: 88vh;
+    padding: 10%;
+}
+
+.main-section .row{
+    height: 100%;
+}
+
+.main-section .row > div:first-child{
+    height: 34%;
+}
+
+.main-section .row > div:last-child{
+    height: 7%;
+    width: auto;
+    color: #5a279c;
+}
+
+#welcome-text{
+    -webkit-animation-duration: 2s;
+}
+
+#search-box{
+    -webkit-animation-delay: 0.7s;
+    -webkit-animation-duration: 2s;
+}
