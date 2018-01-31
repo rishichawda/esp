@@ -1,14 +1,17 @@
-html{
+html, body{
     margin: 0px;
 }
 
-#navbar-main{
+
+#navbarmain{
     z-index: 1000;
 }
 
 .main-section{
+    margin: auto;
     height: 88vh;
-    padding: 10%;
+    padding-top: 10%;
+    padding: auto;
 }
 
 .main-section .row{
@@ -30,6 +33,7 @@ html{
 }
 
 #search-box{
+    bottom: 38%;
     -webkit-animation-delay: 0.7s;
     -webkit-animation-duration: 2s;
 }
