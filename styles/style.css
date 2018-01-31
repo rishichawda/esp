@@ -2,10 +2,6 @@ html{
     margin: 0px;
 }
 
-nav{
-    z-index: 100;
-}
-
 .main-section{
     height: 88vh;
     padding: 10%;
