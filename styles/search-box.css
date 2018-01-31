@@ -36,7 +36,7 @@
   width: 100%;
   transition-delay: 0.4s, 0s, 0.4s;
   outline: 0;
-  border-radius: 0;
+  border-radius: 2.5em;
   cursor: text;
   padding-left: 16.5px;
 }
@@ -60,7 +60,7 @@
 }
 .inputbox .del {
   position: absolute;
-  top: 50%;
+  top: 56%;
   left: 50%;
   transform: translate(-50%, -50%);
   height: 50px;

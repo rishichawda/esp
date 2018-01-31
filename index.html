@@ -39,21 +39,20 @@
             </div>
             <div class="w-100 d-none d-md-block"></div>
             
-            <!-- Code for Type 1 search bar starts here. -->
-              <div class="col align-self-start animated lightSpeedIn" id=search-box>
-                <form class="inputbox">
-                  <input required="required" />
+            <!-- Code for Search bar starts here. -->
+              <div class="col align-self-start animated lightSpeedIn" id="search-box">
+                <form class="inputbox" method="GET" action="http://localhost:5020/search">
+                  <input name="searchItem" value required="required"/>
                   <button class="del" type="reset"></button>
                 </form>
               </div>
-              <!-- Code for Type 1 search bar ends here. -->
+              <!-- Code for Search bar ends here. -->
 
               <div class="w-100 d-none d-md-block"></div>
         </div>
         <!-- Code for Main Section ends here. -->
 
     <script src="index.js"></script>
-    <script src="search-box2-script.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
